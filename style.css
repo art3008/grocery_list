@@ -51,17 +51,20 @@ html, body {
     border-bottom: 3px solid lightgray;
 }
 
-/* .list h3 {
-    margin-top: 10px;
-    text-align: center;
-    margin: 10px;
+#groceryItems {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    font-size: 1.5rem;
+    gap: 15px;
 }
 
-input {
-    border: none;
-    margin: 20px;
-    width: 300px;
-    height: 40px;
-    border-bottom: 1px solid black;
+#groceryItems h2 {
+    cursor: pointer;
+}
 
-} */
+h2 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
